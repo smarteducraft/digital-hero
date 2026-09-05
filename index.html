@@ -6,16 +6,22 @@
 
   <title>디지털 히어로</title>
 
-  <meta http-equiv="refresh"
-        content="1;url=https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec">
+  <!-- JavaScript가 작동하지 않을 경우를 위한 예비 이동 -->
+  <meta
+    http-equiv="refresh"
+    content="3; url=https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec"
+  >
 
   <script>
     window.addEventListener('DOMContentLoaded', function () {
-      const targetUrl = 'https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec';
+
+      const targetUrl =
+        'https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec';
 
       setTimeout(function () {
         window.location.replace(targetUrl);
       }, 500);
+
     });
   </script>
 
@@ -26,8 +32,15 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
       font-family: Arial, "Noto Sans KR", sans-serif;
-      background: linear-gradient(135deg, #eaf7ff, #f3fffb);
+
+      background: linear-gradient(
+        135deg,
+        #eaf7ff,
+        #f3fffb
+      );
+
       color: #183153;
       text-align: center;
     }
@@ -46,11 +59,17 @@
 
     a {
       display: inline-block;
+
       padding: 14px 24px;
+
       border-radius: 12px;
+
       background: #1f6feb;
+
       color: white;
+
       text-decoration: none;
+
       font-weight: bold;
     }
   </style>
@@ -66,8 +85,10 @@
       디지털 히어로 게시판으로 이동하고 있습니다.
     </p>
 
-    <a id="enterButton"
-       href="https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec">
+    <a
+      id="enterButton"
+      href="https://script.google.com/macros/s/AKfycbzWuov20f8r8AQHYr4wo1b3U5C--kK5busxYgP8QZ6IqYbZXbOlZFw-AHtuuRcEesaHnA/exec"
+    >
       게시판 들어가기
     </a>
 
